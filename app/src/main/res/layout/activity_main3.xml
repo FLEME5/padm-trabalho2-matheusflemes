@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextViewPersonagemId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_id" />
+
+            <EditText
+                android:id="@+id/EditTextPersonagemId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textViewNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_nome" />
+
+            <EditText
+                android:id="@+id/EditTextNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/TextViewNota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_nota" />
+
+            <EditText
+                android:id="@+id/EditTextNota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/TextViewDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_desc" />
+
+            <EditText
+                android:id="@+id/EditTextDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/TextViewRegistros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registros: 0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ButtonIncluir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickIncluir"
+                android:text="@string/botao_incluir" />
+
+            <Button
+                android:id="@+id/ButtonAlterar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickAlterar"
+                android:text="@string/botao_alterar" />
+
+            <Button
+                android:id="@+id/ButtonExcluir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickExcluir"
+                android:text="@string/botao_excluir" />
+
+            <Button
+                android:id="@+id/ButtonConsultar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickConsultar"
+                android:text="@string/botao_consulta" />
+
+            <Button
+                android:id="@+id/ButtonEsvaziarBD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickEsvaziarBD"
+                android:text="@string/botao_esvaziar_bd" />
+
+            <Button
+                android:id="@+id/ButtonLimpar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLimpar"
+                android:text="@string/botao_limpar" />
+
+            <Button
+                android:id="@+id/ButtonVoltar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickVoltar"
+                android:text="@string/botao_voltar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

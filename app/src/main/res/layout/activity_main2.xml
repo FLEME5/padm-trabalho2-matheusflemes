@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:id="@+id/OrganizacaoListaDados"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonEditarLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickButtonEditarLista"
+            android:text="@string/botao_editar_lista" />
+
+        <Button
+            android:id="@+id/buttonVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickBotaoVoltar"
+            android:text="@string/botao_voltar" />
+
+        <TextView
+            android:id="@+id/TextViewListaPersonagens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista de personagens" />
+
+        <EditText
+            android:id="@+id/EditTextListaPersonagens"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="left|top"
+            android:inputType="textMultiLine|text"
+            android:singleLine="false" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">PADM Trabalho 2</string>
+    <string name="botao_incluir" translatable="false">Incluir</string>
+    <string name="botao_alterar" translatable="false">Alterar</string>
+    <string name="botao_excluir" translatable="false">Excluir</string>
+    <string name="botao_consulta">Consultar</string>
+    <string name="botao_listar">Listar</string>
+    <string name="botao_esvaziar_bd">Esvaziar BD</string>
+    <string name="botao_limpar">Limpar</string>
+    <string name="botao_fechar">Fechar</string>
+    <string name="botao_listar_personagens">Lista de Personagens</string>
+    <string name="botao_voltar">Voltar</string>
+    <string name="image_desc">Epic Seven</string>
+    <string name="botao_editar_lista">Editar Lista</string>
+    <string name="edit_id">ID Personagem</string>
+    <string name="edit_nome">Nome</string>
+    <string name="edit_nota">Nota</string>
+    <string name="edit_desc">Descrição</string>
+</resources>
